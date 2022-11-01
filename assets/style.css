@@ -50,24 +50,61 @@ h2{
     color: #f5ee9e;
     border-top: solid #f5ee9e;
     padding-top: 20px;
-    padding-bottom: 20px;
     text-align: center;
+    margin: 20px;
+    font-style: bold;
+    letter-spacing: 2px;
+
    
 
 }
 section.about {
-    display:flex;
-    justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
     color: #f5ee9e;
-    padding-bottom: 20px;
+    font-size: 12px;
     text-align: center;
+    
+}
+figure.headshot{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    padding-top: 10px;
 }
 
 section.work{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;  
+
+ }
+.photo1{
+padding-bottom: ;
 }
+.photo2{
+padding-bottom: ;
+
+}
+.photo3{
+
+}
+.photo1 figcaption {
+    color: #f5ee9e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+  }
+  .photo2 figcaption{
+    color: #f5ee9e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+  }
+  .photo3 figcaption{
+    color: #f5ee9e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+  }
 
 section.contact{
 
