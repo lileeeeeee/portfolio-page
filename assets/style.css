@@ -23,27 +23,22 @@ h1 {
     color: #f5ee9e;
     display: flex;
     align-self: center;
-    
-
 }
-
-nav {
-    
-    font-family: Arial, Helvetica, sans-serif
-    
-}
+ 
 nav li {
+    display: flex;
+    flex-direction: row;
     color: #f5ee9e;
     font-weight: bold;
-
-
-    
+    font-family: Arial, Helvetica, sans-serif 
 }
+
 a:link {
     color: #f5ee9e;
 }
+
 a:visited {
-    
+    color: #2d728f;  
 }
 
 h2{
@@ -53,59 +48,65 @@ h2{
     text-align: center;
     margin: 20px;
     font-style: bold;
-    letter-spacing: 2px;
-
-   
-
+    letter-spacing: 2px; 
+    font-size: 20px;
 }
+
 section.about {
     font-family: Arial, Helvetica, sans-serif;
-    color: #f5ee9e;
-    font-size: 12px;
-    text-align: center;
-    
+    color:#f5ee9e;
+    text-align: center;   
 }
+
 figure.headshot{
     display: flex;
     justify-content: space-around;
     align-self: center;
-    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 section.work{
     display: flex;
     flex-direction: column;  
-
  }
+
 .photo1{
-padding-bottom: ;
+
 }
+
 .photo2{
-padding-bottom: ;
+    border-top: solid #f5ee9e;
+    margin:10%;
 
 }
+
 .photo3{
-
+    border-top: solid #f5ee9e;
+    margin:10%;
 }
-.photo1 figcaption {
+
+figcaption {
     color: #f5ee9e;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-
-  }
-  .photo2 figcaption{
-    color: #f5ee9e;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-
-  }
-  .photo3 figcaption{
-    color: #f5ee9e;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-
-  }
+    padding: 2px;
+}
 
 section.contact{
 
 }
+@media only screen and (min-width: 601px) {
+    h1 {
+      font-size: 80px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    figcaption {
+        font-size: 48px;
+    }
+    section.about {
+        font-size: 48px;
+    }
+
+  }
