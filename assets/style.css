@@ -1,7 +1,7 @@
-  
+/*   
 * {
     box-sizing: border-box;
-  }
+  } */
   
   body {
     background-color: #2d728f;
@@ -9,37 +9,46 @@
   
 
 header {
-    width: 100%;
+    /* width: 100%; */
     background-color: #3b8ea5;
     display: flex;
+    /* display: flex; */
 }
 
 h1 {
-    width: 100%;
+    /* width: 100%; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     font-size: 20px;
     color: #f5ee9e;
-    display: flex;
-    align-self: center;
+    text-align: center;
+    /* display: flex;
+    align-self: center; */
 }
- 
+nav{
+    margin-left: 20px;
+    
+}
+
 nav li {
-    display: flex;
+    
     flex-direction: row;
     color: #f5ee9e;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif 
+    
+    
 }
 
 a:link {
     color: #f5ee9e;
+    
 }
 
-a:visited {
+/* a:visited {
     color: #2d728f;  
-}
+} */
 
 h2{
     color: #f5ee9e;
@@ -50,6 +59,7 @@ h2{
     font-style: bold;
     letter-spacing: 2px; 
     font-size: 20px;
+    
 }
 
 section.about {
@@ -59,15 +69,17 @@ section.about {
 }
 
 figure.headshot{
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
+    /* display: flex; */
+    /* justify-content: space-around;
+    align-self: center; */
     padding-bottom: 10px;
 }
 
 section.work{
-    display: flex;
-    flex-direction: column;  
+    margin-left: 50px;
+    margin-right: 20px;
+    /* display: flex;
+    flex-direction: column;   */
  }
 
 .photo1{
@@ -75,17 +87,23 @@ section.work{
 }
 
 .photo2{
-    border-top: solid #f5ee9e;
-    margin:10%;
+    
+    /* margin:10%; */
 
 }
 
 .photo3{
-    border-top: solid #f5ee9e;
-    margin:10%;
+    
+    /* margin:10%; */
 }
 
 figcaption {
+    color: #f5ee9e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 2px;
+}
+p {
     color: #f5ee9e;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -95,7 +113,7 @@ figcaption {
 section.contact{
 
 }
-@media only screen and (min-width: 601px) {
+/* @media only screen and (min-width: 601px) {
     h1 {
       font-size: 80px;
     }
@@ -104,9 +122,10 @@ section.contact{
     }
     figcaption {
         font-size: 48px;
+        margin-left: 10px;
     }
     section.about {
         font-size: 48px;
     }
 
-  }
+  } */

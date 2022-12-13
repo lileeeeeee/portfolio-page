@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/reset.css" rel="stylesheet" type="text/CSS">
     <link href="./assets/style.css"rel="stylesheet" type="text/CSS">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Lily Langerud</title>
 </head>
-<body>
+<body>   
 <header>
     <h1>LILY LANGERUD</h1>   
     <nav> 
@@ -19,25 +20,46 @@
         </ul> 
     </nav>
 </header>
-<h2 id="work"> work </h2>
+<div class = columns>
+ <div class = "column is-full">
+   <h2 id="work">work</h2>
+   <br><br>
 <section class = "work">   
     <!-- currently each linked to my github main page,
         will update with links to individual projects once they 
         exist, photos are placeholders -->
-    <figure class = "photo1"> 
-    <a href="https://github.com/lileeeeeee" ><img src="./photos/dog1.jpg"width = "100%" height ="100%"></a>
-    <figcaption>This is a project that does these things</figcaption>    
-</figure>   
-    <figure class = "photo2">
-    <a href="https://github.com/lileeeeeee"><img src="./photos/dog2.jpg"width = "40%" height ="40%"></a>
-    <figcaption>This is another project that does these other things</figcaption>
-</figure> 
-    <figure class = "photo3">
-    <a href="https://github.com/lileeeeeee"><img src="./photos/dog3.jpg" width="40%" height="40%"></a>
-    <figcaption>This is the third project and it does other things also</figcaption>
-</figure> 
-    </section>
-    <h2 id="about"> about </h2> 
+    <div class = "columns">
+        <div class = "column is-half">
+           <figure class = "photo1"> 
+    <a href="https://github.com/lileeeeeee" ><img src="./photos/cryptoscopeimage.jpg"></a>
+    <br></br>
+    <figcaption>CRYPTOSCOPE</figcaption>
+    <p>A fun horoscope app that picks "lucky" crypto and displays historical pricing data</p> 
+</figure>  
+</div>
+<div class ="column is-one-quarter">
+<figure class = "photo2">
+    <a href="https://github.com/lileeeeeee"><img src="./photos/dog2.jpg"></a>
+    <figcaption>PROJECT TITLE</figcaption>
+</figure>
+<div class ="column">
+<figure class = "photo3">
+    <a href="https://github.com/lileeeeeee"><img src="./photos/dog3.jpg"></a>
+    <figcaption>PROJECT TITLE</figcaption>
+</figure>     
+</div>
+</div>
+</div>
+</div>     
+</section>  
+</div>
+</div>   
+</div>
+</div>
+</div>   
+ 
+ <div class = column>
+ <h2 id="about"> about </h2> 
 <section class = "about">
     <figure class="headshot">
      <img src="./photos/headshot3.jpg" width = "25%" height ="25%"></figure>
@@ -46,9 +68,13 @@
         <!-- will update at a later time-->
     </article>     
 </section>
-    <!-- currently email only, will add linkedin and github later -->
-<section class = "contact">
+   </div> <!-- currently email only, will add linkedin and github later -->
+   <div class = column>
+   <section class = "contact">
 <h2 id="contact"> <a href="mailto:lily.langerud@gmail.com">contact</a> </h2>    
-</section>   
+</section> 
+</div>  
+</div>
+</div>
 </body>
 </html>
