@@ -5,7 +5,7 @@ a page with links to my work and contact information
 This is a website that contains information about me, a method of contacting me and links to my work.
 
 ## Installation
-Website is available here: https://lileeeeeee.github.io/portfolio-page/
+Website is available here: https://llangerud.github.io/portfolio-page/
 
 [screenshot](photos/screenshot.jpg.png)
 
